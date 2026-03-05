@@ -49,68 +49,67 @@ function Contact() {
     // }
   };
 
-  return (
-    <div id="contact">
-      <div className="items-container">
-        <div className="contact_wrapper">
-          <h1>Contactez-Moi</h1>
-          <p>Vous avez un projet en attente de réalisation ? Collaborons afin de le concrétiser.</p>
-          <Box
-            ref={form}
-            component="form"
-            noValidate
-            autoComplete="off"
-            className='contact-form'
-          >
-            <div className='form-flex'>
-              <TextField
-                required
-                id="outlined-required"
-                label="Votre nom"
-                placeholder="Quel est votre nom ?"
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-                error={nameError}
-                helperText={nameError ? "Entrez-votre nom" : ""}
-              />
-              <TextField
-                required
-                id="outlined-required"
-                label="Email / Numéro de téléphone"
-                placeholder="Vos coordoonées afin que je vous recontacte."
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-                error={emailError}
-                helperText={emailError ? "Envoyez votre email ou votre numéro de téléphone" : ""}
-              />
-            </div>
-            <TextField
-              required
-              id="outlined-multiline-static"
-              label="Message"
-              placeholder="Envoyez-moi vos questions ou vos requêtes ici."
-              multiline
-              rows={10}
-              className="body-form"
-              value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
-              error={messageError}
-              helperText={messageError ? "Veuillez écrire votre message" : ""}
-            />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Envoyez
-            </Button>
-          </Box>
-        </div>
-      </div>
-    </div>
-  );
+  return 
+    // <div id="contact">
+    //   <div className="items-container">
+    //     <div className="contact_wrapper">
+    //       <h1>Contactez-Moi</h1>
+    //       <p>Vous avez un projet en attente de réalisation ? Collaborons afin de le concrétiser.</p>
+    //       <Box
+    //         ref={form}
+    //         component="form"
+    //         noValidate
+    //         autoComplete="off"
+    //         className='contact-form'
+    //       >
+    //         <div className='form-flex'>
+    //           <TextField
+    //             required
+    //             id="outlined-required"
+    //             label="Votre nom"
+    //             placeholder="Quel est votre nom ?"
+    //             value={name}
+    //             onChange={(e) => {
+    //               setName(e.target.value);
+    //             }}
+    //             error={nameError}
+    //             helperText={nameError ? "Entrez-votre nom" : ""}
+    //           />
+    //           <TextField
+    //             required
+    //             id="outlined-required"
+    //             label="Email / Numéro de téléphone"
+    //             placeholder="Vos coordoonées afin que je vous recontacte."
+    //             value={email}
+    //             onChange={(e) => {
+    //               setEmail(e.target.value);
+    //             }}
+    //             error={emailError}
+    //             helperText={emailError ? "Envoyez votre email ou votre numéro de téléphone" : ""}
+    //           />
+    //         </div>
+    //         <TextField
+    //           required
+    //           id="outlined-multiline-static"
+    //           label="Message"
+    //           placeholder="Envoyez-moi vos questions ou vos requêtes ici."
+    //           multiline
+    //           rows={10}
+    //           className="body-form"
+    //           value={message}
+    //           onChange={(e) => {
+    //             setMessage(e.target.value);
+    //           }}
+    //           error={messageError}
+    //           helperText={messageError ? "Veuillez écrire votre message" : ""}
+    //         />
+    //         <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+    //           Envoyez
+    //         </Button>
+    //       </Box>
+    //     </div>
+    //   </div>
+    // </div>
 }
 
 export default Contact;
