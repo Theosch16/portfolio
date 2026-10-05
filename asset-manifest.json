@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6502f0d8.css",
-    "main.js": "/portfolio/static/js/main.426a152b.js",
+    "main.js": "/portfolio/static/js/main.df8f55f1.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/e-commerce.png": "/portfolio/static/media/e-commerce.60229636ad969a83562c.png",
+    "static/media/e-commerce.png": "/portfolio/static/media/e-commerce.c7b2e65e723c0205cb35.png",
     "static/media/matot_braine2.png": "/portfolio/static/media/matot_braine2.91fc7c45c9cf949a33dc.png",
     "static/media/immobilier.png": "/portfolio/static/media/immobilier.912eae5e96da883a4aed.png",
     "static/media/apsecurity2.png": "/portfolio/static/media/apsecurity2.bf51ac9cb4abb70c27b6.png",
     "index.html": "/portfolio/index.html",
     "main.6502f0d8.css.map": "/portfolio/static/css/main.6502f0d8.css.map",
-    "main.426a152b.js.map": "/portfolio/static/js/main.426a152b.js.map",
+    "main.df8f55f1.js.map": "/portfolio/static/js/main.df8f55f1.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6502f0d8.css",
-    "static/js/main.426a152b.js"
+    "static/js/main.df8f55f1.js"
   ]
 }
